@@ -1,0 +1,19 @@
+Instructions for replicating robot: 
+Comment: This is a set of instructions for wiring the robot and also to program the arduino. Structure of the robot isn't
+currently provided. If so, an image file can be uploaded.
+
+Wiring the robot:
+See wiring diagram below. It will use an integrated ciruit wiring the dc motors and their respective digital pins to control 
+both forwards and backwards. 2 servos are wired for the "scoop" that will be controlled by the ultrasonic sensor. The DC 
+motors will be controlled by bluetooth control.
+
+Links:
+http://lampatronics.com/wp-content/uploads/2015/04/FLGUVFVHD4VGYKU.MEDIUM.jpg   (DC motors and bluetooth)
+http://libraries.ecolint.ch/chasci/wp-content/uploads/2015/06/MoodCuePage2.jpg  (Servo Motor - potentiometer)
+https://www.maxphi.com/wp-content/uploads/2017/08/hc-sr04-ultrasonic-sensor-arduino-wiring-diagram-1024x529.png (Ultrasonic)
+
+Coding the Robot:
+Copy and paste Arduino Code in repository and uoload it to the arduino.
+You will need to have an app built or use Arduino Bluetooth Control (for Android) to control the motors over blueooth.
+
+You can go wherever with building the robot, as long as it has motors, servos, an ultrasonic sensor and a bluetooth module.
