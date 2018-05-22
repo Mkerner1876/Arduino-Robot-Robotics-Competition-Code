@@ -136,4 +136,5 @@ void loop() {
     }
   }
 }
-
+// In void loop, delete the distance if statement to test bluetooth. 
+//For running the complete code, the serial monitor will be interfered with when tx and rx for bluetooth is connected.
